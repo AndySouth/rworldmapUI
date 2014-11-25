@@ -4,34 +4,6 @@
 library(shiny)
 
 
-# shinyUI(pageWithSidebar(
-#   
-#   # Application title
-#   #headerPanel("rworldmap shiny demo3, shows code and resultant plot, Andy South"),
-#   #if no headerPanel an error is generated
-#   headerPanel(""),
-# 
-#   sidebarPanel(
-# 
-#     selectInput("variable", "to plot :",
-#                 c("population" = "POP_EST",
-#                   "gdp" = "GDP_MD_EST"
-#                   )),
-# 
-#     checkboxInput("addLegend", "addLegend", TRUE) #var,name
-#     
-#     
-#   ),
-#   
-#   mainPanel(
-#     
-#     #h3(textOutput("caption")),
-#     
-#     #the map plot
-#     plotOutput("rwmPlot")
-#   )
-# ))
-
 #trying a fluid page to create more space for the plot
 #from here
 #https://groups.google.com/forum/?fromgroups#!searchin/shiny-discuss/plot$20area/shiny-discuss/_mrgCT5G7yQ/5mETVb3tfbIJ
