@@ -21,7 +21,7 @@ options(shiny.usecairo=FALSE)
 shinyServer(function(input, output) {
   
   # map call ---- 
-  # can be called from more than one place
+  # text used to create plot and to print to screen
   formulaText <- reactive({
     
     strCode <- paste0("#allow map to fill plot area\n")    
